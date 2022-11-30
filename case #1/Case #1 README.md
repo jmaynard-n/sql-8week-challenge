@@ -23,6 +23,7 @@ https://8weeksqlchallenge.com/case-study-1/
 - cte, nested query, nested case clause
 
 ## ER diagram for case #1
-
+![image](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%231/ER%20diagram.png)
 
 ## Tables content
+![image](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%231/tables.png)
