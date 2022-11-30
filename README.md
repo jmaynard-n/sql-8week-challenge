@@ -5,7 +5,7 @@ My solutions for Danny Ma's 8-week SQL challenge - use SQL to solve case studies
 https://8weeksqlchallenge.com/getting-started/
 
 ## Challehge Progress
-# | Case Study| Url | Completed | My solution
+№ | Case Study| Url | Completed | My solution
 ---|---|---|---|
 1 | Danny's Diner | [Case Study 1](https://8weeksqlchallenge.com/case-study-1/)| :white_check_mark: |[Solution](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%231/Case%20%231%20README.md)|
 2 | Pizza Runner | [Case Study 2](https://8weeksqlchallenge.com/case-study-2/)| :arrow_forward: In Progress |---|
