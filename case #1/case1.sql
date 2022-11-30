@@ -131,3 +131,29 @@ WHERE -- first week after joining
 	s.order_date >= mem.join_date AND 
     s.order_date - mem.join_date + 1 <= 7
 ORDER BY s.customer_id;
+
+-- bonus question #1
+-- Join all the things.
+
+SELECT s.customer_id, s.order_date, m.product_name, m.price,
+	CASE WHEN s.order_date >= mem.join_date THEN 'Y'
+    ELSE 'N'
+    END as member
+FROM dannys_diner.sales s full join dannys_diner.members mem 
+	on s.customer_id = mem.customer_id  
+	join dannys_diner.menu m on s.product_id = m.product_id
+ORDER BY s.customer_id, s.order_date;
+
+-- bonus question #2
+-- Rank all the things
+--  NOT COMPLETED
+-- SELECT s.customer_id, s.order_date, m.product_name, m.price,
+-- 	CASE WHEN s.order_date >= mem.join_date THEN 'Y'
+--     ELSE 'N'
+--     END as member,
+--     DENSE_RANK() OVER(PARTITION BY s.customer_id ORDER BY s.order_date)
+--     as ranking
+-- FROM dannys_diner.sales s full join dannys_diner.members mem 
+-- 	on s.customer_id = mem.customer_id  
+-- 	join dannys_diner.menu m on s.product_id = m.product_id
+-- ORDER BY s.customer_id, s.order_date;
