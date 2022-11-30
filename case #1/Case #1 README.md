@@ -21,3 +21,8 @@ https://8weeksqlchallenge.com/case-study-1/
 - distinct, limit
 - windowing functions (row_number, sum, count)
 - cte, nested query, nested case clause
+
+## ER diagram for case #1
+
+
+## Tables content
