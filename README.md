@@ -15,3 +15,11 @@ https://8weeksqlchallenge.com/getting-started/
 6 | Clique Bait | [Case Study 6](https://8weeksqlchallenge.com/case-study-6/)| :heavy_multiplication_x: Not started |---|
 7 | Balanced Tree Clothin Co. | [Case Study 7](https://8weeksqlchallenge.com/case-study-7/)| :heavy_multiplication_x: Not started |---|
 8 | Fresh Segments | [Case Study 8](https://8weeksqlchallenge.com/case-study-8/)| :heavy_multiplication_x: Not started |---|
+
+## Techniques used
+- where, order by, group by
+- distinct, limit
+- windowing functions (row_number, sum, count)
+- cte, nested query, nested case clause
+- coalesce, extract
+- cleaning data in tables
