@@ -1,4 +1,3 @@
----
 ### How many customers has Foodie-Fi ever had? 
 
 **Query #1**
