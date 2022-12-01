@@ -1,5 +1,5 @@
 ---
--- How many customers has Foodie-Fi ever had? 
+### How many customers has Foodie-Fi ever had? 
 
 **Query #1**
 
@@ -11,7 +11,7 @@
 | 1000       |
 
 ---
--- What is the monthly distribution of trial plan start_date values for our dataset - use the start of the month as the group by value
+### What is the monthly distribution of trial plan start_date values for our dataset - use the start of the month as the group by value
 
 **Query #2**
 
@@ -37,7 +37,7 @@
 | 12          | 84    |
 
 ---
--- What plan start_date values occur after the year 2020 for our dataset? Show the breakdown by count of events for each plan_name
+### What plan start_date values occur after the year 2020 for our dataset? Show the breakdown by count of events for each plan_name
 
 **Query #3**
 
@@ -56,7 +56,7 @@
 | basic monthly | 8           |
 
 ---
--- What is the customer count and percentage of customers who have churned rounded to 1 decimal place?
+### What is the customer count and percentage of customers who have churned rounded to 1 decimal place?
 
 **Query #4**
 
@@ -74,7 +74,7 @@
 | 307          | 30.7             |
 
 ---
--- How many customers have churned straight after their initial free trial - what percentage is this rounded to the nearest whole number?
+### How many customers have churned straight after their initial free trial - what percentage is this rounded to the nearest whole number?
 
 **Query #5**
 
@@ -94,7 +94,7 @@
 | 92                  | 10                 |
 
 ---
--- What is the number and percentage of customer plans after their initial free trial?
+### What is the number and percentage of customer plans after their initial free trial?
 
 **Query #6**
 
@@ -114,7 +114,7 @@
 | 908             | 91                 |
 
 ---
--- What is the customer count and percentage breakdown of all 5 plan_name values at 2020-12-31?
+### What is the customer count and percentage breakdown of all 5 plan_name values at 2020-12-31?
 
 **Query #7**
 
@@ -147,7 +147,7 @@
 | 4       | 307       | 43.3          |
 
 ---
--- How many customers have upgraded to an annual plan in 2020?
+### How many customers have upgraded to an annual plan in 2020?
 
 **Query #8**
 
@@ -160,7 +160,7 @@
 | 195   |
 
 ---
--- How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
+### How many days on average does it take for a customer to an annual plan from the day they join Foodie-Fi?
 
 **Query #9**
 
@@ -183,7 +183,7 @@
 | 105             |
 
 ---
--- Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
+### Can you further breakdown this average value into 30 day periods (i.e. 0-30 days, 31-60 days etc)
 
 **Query #10**
 
@@ -223,7 +223,7 @@
 | 331-360 days | 1         |
 
 ---
--- How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
+### How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
 
 **Query #11**
 
