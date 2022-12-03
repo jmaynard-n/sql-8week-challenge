@@ -1,7 +1,20 @@
 # Case Study #2 - Pizza Runner
-:mag_right: [Check out case study #1 challange page](https://8weeksqlchallenge.com/case-study-2/)
+:mag_right: [Check out case study #2 challange page](https://8weeksqlchallenge.com/case-study-2/)
+
+# Table of contents
+- Case Description
+- Case Study Questions
+  - Part A. Pizza Metrics
+  - Part B. Runner and Customer Experience
+  - Part C. Ingredient Optimisation
+  - Part D. Pricing and Ratings
+- Techiniques used in my solution
+- My solutions for each part
+- ER Diagram
+- Tables content
 
 ## Description 
+![Case 2 Cover](https://8weeksqlchallenge.com/images/case-study-designs/2.png) 
 > Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”
 > Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire - so he had one more 
 > genius idea to combine with it - he was going to Uberize it - and so Pizza Runner was launched!
@@ -66,6 +79,14 @@ kilometre traveled - how much money does Pizza Runner have left over after these
 
 ## Techiniques used in my solution
 ! to be updated
+
+## My solutions
+Part | Solution | Link to online DB |
+--- | --- | --- |
+A | --- | --- |
+B | --- | --- |
+C | --- | --- |
+D | --- | --- |
 
 ## ER diagram 
 ![image](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/ER%20Pizza%20runner.png)
