@@ -1,17 +1,17 @@
-# Case Study #2 - Pizza Runner
-:mag_right: [Check out case study #2 challange page](https://8weeksqlchallenge.com/case-study-2/)
+# Case Study #3 - Foodie-Fi
+:mag_right: [Check out case study #3 challange page](https://8weeksqlchallenge.com/case-study-3/)
 
 # Table of contents
-- [Case Description](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#description)
-- [Case Study Questions](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#case-study-questions)
-  - [Part A. Pizza Metrics](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#part-a---pizza-metrics)
-  - [Part B. Runner and Customer Experience](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#part-b---runner-and-customer-experience)
-  - [Part C. Ingredient Optimisation](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#part-c---ingredient-optimisation)
-  - [Part D. Pricing and Ratings](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#part-d---pricing-and-ratings)
-- [Techiniques used in my solution](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#techiniques-used-in-my-solution)
-- [My solutions for each part](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#my-solutions)
-- [ER Diagram](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#er-diagram)
-- [Tables](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%232/case%20%232%20README.md#tables)
+- [Case Description](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#description)
+- [Case Study Questions](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#case-study-questions)
+  - [Part A. Customer Journey](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#part-a---customer-journey)
+  - [Part B. Data Analysis Questions](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#part-b---data-analysis-questions)
+  - [Part C. Challenge Payment Question](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#part-c---challenge-payment-question)
+  - [Part D. Outside The Box Questions](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#part-d---outside-the-box-questions)
+- [Techiniques used in my solution](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#techiniques-used-in-my-solution)
+- [My solutions for each part](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#my-solutions)
+- [ER Diagram](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#er-diagram)
+- [Tables](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%233/case%203%20README.md#tables)
 
 ## Description 
 ![Case 3 Cover](https://8weeksqlchallenge.com/images/case-study-designs/3.png) 
@@ -21,7 +21,7 @@
 
 ## Case Study Questions
 
-### Part A - Pizza Metrics
+### Part A - Customer Journey
 Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.
 
 Try to keep it as short as possible - you may also want to run some sort of join to make your explanations a bit easier!
