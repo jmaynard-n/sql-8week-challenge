@@ -145,15 +145,24 @@ FROM dannys_diner.sales s full join dannys_diner.members mem
 ORDER BY s.customer_id, s.order_date;
 
 -- bonus question #2
--- Rank all the things
---  NOT COMPLETED
--- SELECT s.customer_id, s.order_date, m.product_name, m.price,
--- 	CASE WHEN s.order_date >= mem.join_date THEN 'Y'
---     ELSE 'N'
---     END as member,
---     DENSE_RANK() OVER(PARTITION BY s.customer_id ORDER BY s.order_date)
---     as ranking
--- FROM dannys_diner.sales s full join dannys_diner.members mem 
--- 	on s.customer_id = mem.customer_id  
--- 	join dannys_diner.menu m on s.product_id = m.product_id
--- ORDER BY s.customer_id, s.order_date;
+-- Rank all the things.
+
+WITH temp AS (
+SELECT s.customer_id, s.order_date, m.product_name, m.price,
+    CASE WHEN mem.join_date > s.order_date THEN 'N'
+	    WHEN mem.join_date <= s.order_date THEN 'Y'
+	    ELSE 'N'
+  		END AS member
+FROM dannys_diner.sales s
+LEFT JOIN dannys_diner.menu m
+	ON s.product_id = m.product_id
+LEFT JOIN dannys_diner.members mem
+	ON s.customer_id = mem.customer_id
+)
+
+SELECT *,
+	CASE WHEN member = 'N' then NULL
+    ELSE
+			RANK () OVER(PARTITION BY customer_id, member ORDER BY order_date) 
+		END AS ranking
+FROM temp;

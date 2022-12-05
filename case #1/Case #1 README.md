@@ -17,15 +17,16 @@
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
 [Quick link to my full solution (code + query results)](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%231/case%20%231%20results.md)
+[View solution on DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138)
 
 ## Techiniques used in my solution
 - where, order by, group by
 - distinct, limit
-- windowing functions (row_number, sum, count)
+- windowing functions (row_number, sum, count, rank)
 - cte, nested query, nested case clause
 
 ## ER diagram for case #1
 ![image](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%231/ER%20diagram.png)
 
-## Tables content
+## Tables
 ![image](https://github.com/jmaynard-n/sql-8week-challenge/blob/main/case%20%231/tables.png)
