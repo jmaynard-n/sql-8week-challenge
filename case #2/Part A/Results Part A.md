@@ -1,6 +1,5 @@
----
-
 **Query #1**
+
 -- 1. How many pizzas were ordered?
 
     select count(*)
@@ -12,6 +11,7 @@
 
 ---
 **Query #2**
+
 -- 2. How many unique customer orders were made?
 
     select count(distinct order_id)
@@ -22,11 +22,13 @@
 | 10    |
 
 ---
+
 -- 3. How many successful orders were delivered by each runner?
 
 -- clean runner order table, cancellations column
 -- replace all miscellaneous values to 'N' which states for 'Not cancelled' 
 -- since "cancellation" is VARCHAR(23) it's values should be strings
+
 **Query #3**
 
     update pizza_runner.runner_orders
@@ -214,6 +216,7 @@ There are no results to be displayed.
 -- What was the volume of orders for each day of the week?
 
 -- first variant 
+
     select extract(dow from c.order_time) as day_of_week, count(pizza_id) as count_pizza_ordered
     from pizza_runner.customer_orders c 
     group by day_of_week;
@@ -230,6 +233,7 @@ There are no results to be displayed.
 -- What was the volume of orders for each day of the week?
 
 -- second variant 
+
     select to_char(c.order_time, 'Day') as day_of_week, count(pizza_id) as count_pizza_ordered
     from pizza_runner.customer_orders c 
     group by day_of_week;
