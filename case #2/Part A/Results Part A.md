@@ -1,5 +1,3 @@
----
-
 **Query #1**
 -- 1. How many pizzas were ordered?
 
